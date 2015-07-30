@@ -1,29 +1,29 @@
-title:            Site Title
+title:            Yuxiang Zhang
 description:      Describe your website here.
 disqus_shortname: hpstrtheme
 reading_time:     true
 words_per_minute: 200
 # Your site's domain goes here (eg: //mmistakes.github.io, http://mademistakes.com, etc)
 # When testing locally leave blank or use http://localhost:4000
-url:
+url:              //jckhang.github.io
 
 # Owner/author information
 owner:
   name:           Your Name
   avatar:         avatar.jpg
   bio:            "Your bio goes here. It shouldn't be super long but a good two sentences or two should suffice."
-  email:          you@email.com
+  email:          yz3079@nyu.edu
   # Social networking links used in footer. Update and remove as you like.
-  twitter:        
+  twitter:        jckhang
   facebook:       
-  github:         
+  github:         jckhang
   stackexchange:  
   linkedin:       
   instagram:      
   flickr:         
   tumblr:         
   # google plus id, include the '+', eg +mmistakes
-  google_plus:    +yourid
+  google_plus:    +Yuxiang Zhang
 
 # Background image to be tiled on all pages
 background: 
