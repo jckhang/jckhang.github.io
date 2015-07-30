@@ -1,6 +1,6 @@
-title:            Yuxiang Zhang
-description:      Describe your website here.
-disqus_shortname: hpstrtheme
+title:            Triumph of the City
+description:      
+disqus_shortname: jckhang
 reading_time:     true
 words_per_minute: 200
 # Your site's domain goes here (eg: //mmistakes.github.io, http://mademistakes.com, etc)
@@ -9,13 +9,13 @@ url:              //jckhang.github.io
 
 # Owner/author information
 owner:
-  name:           Your Name
+  name:           Yuxiang Zhang
   avatar:         avatar.jpg
-  bio:            "Your bio goes here. It shouldn't be super long but a good two sentences or two should suffice."
+  bio:            "Current student at NYU Center for Urban Science and Progress"
   email:          yz3079@nyu.edu
   # Social networking links used in footer. Update and remove as you like.
-  twitter:        jckhang
-  facebook:       
+  twitter:        
+  facebook:       jckhang18
   github:         jckhang
   stackexchange:  
   linkedin:       
@@ -26,8 +26,7 @@ owner:
   google_plus:    +Yuxiang Zhang
 
 # Background image to be tiled on all pages
-background: 
-
+background: green_cup.png
 # Analytics and webmaster tools stuff goes here
 google_analytics:   
 google_verify:      
