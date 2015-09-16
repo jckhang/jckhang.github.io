@@ -24,7 +24,7 @@ Social Data Scientist, [Ben Wellington](https://about.me/benwellington) tries to
 
 To explain why drivers choose to do a shift change during the period of time with highest demand and potential revenue, Ben gave his answer. 5:08AM/PM is the best time to split revenue between two drivers so they each got roughly equal pay for a 12 hours shift. See Figure 2. He also gave one solution to move the best time of shift change forward to 3AM/PM. That was a $2.5 surcharge from 3AM to 3PM and a $-1.5 surcharge between 3PM to 3AM for each ride. See Figure 3.
 
-![img](/images/12_hour_revenue.png "12 Hour Revenue")
+<p![img](/images/12_hour_revenue.png "12 Hour Revenue")
 
 ![img](/images/12_hour_revenue_with_surcharge.png "12 Hour Revenue with surcharge")
 
