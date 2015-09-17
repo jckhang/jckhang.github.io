@@ -1,6 +1,6 @@
 # Site wide configuration
 
-title:            Site Title
+title:            Yuxiang Zhang
 locale:           en_US
 url:
 
@@ -26,11 +26,11 @@ kramdown:
 
 # Site owner
 owner:
-  name: Your Name
-  avatar: bio-photo.jpg
-  bio: "Describe your self."
-  email:
-  disqus-shortname:
+  name: Yuxiang Zhang
+  avatar: avatar.jpg
+  bio: "Striving in NYC and NYU Center for Urban Science and Progress."
+  email: yuxiang.zh@nyu.edu
+  disqus-shortname: jckhang
   twitter: #username
   facebook: #username
   google:
@@ -40,7 +40,7 @@ owner:
     ad-client:
     ad-slot:
   bing-verify:
-  github: #username
+  github: jckhang
   stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
   linkedin: #username
   xing: #username
