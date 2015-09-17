@@ -4,7 +4,7 @@ title: "Urban Innovation #1"
 modified:
 categories: 
 excerpt: This is the first week assignment of CUSP Civic Anlytics and Urban Intelligence class
-tags: []
+tags: [CUSP]
 image:
   feature:
 date: 2015-09-17T10:46:59-04:00
