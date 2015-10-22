@@ -4,7 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
 <title>Urban Spatial Analytics Midterm</title>
-<!-- 2015-10-22 Thu 12:22 -->
+<!-- 2015-10-22 Thu 13:52 -->
 <meta  http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta  name="generator" content="Org-mode" />
 <meta  name="author" content="ZhangYuxiang" />
@@ -244,9 +244,9 @@ Ways to select features:
 <ol class="org-ol">
 <li>Select by Find: Use Find button on the Tools toolbar and search with feature's names.
 </li>
-<li>Select by Click: Use Select Features button on the Tools toolbar and click.
+<li>Select Features Tool: Use Select Features button on the Tools toolbar and click.
 </li>
-<li>Select by graphic: Use Select by graphic, use Select by Rectangle/Polygon/Circle.
+<li>Select by graphic:  Use Select by Rectangle/Polygon/Circle.
 </li>
 <li>Select by attribute: Open attribute table and click the records(rows) or use Select by attribute.
 </li>
@@ -263,7 +263,7 @@ Ways to select features:
 </ol>
 
 <p>
-Items scanned using a flatbed scanner like this map are examples of raster files. Land cover is represented as single square cells. Each cell will have a value corresponding to its land cover type.
+Every pixel in the raster can
 </p>
 
 <ol class="org-ol">
@@ -357,6 +357,7 @@ It allows user to create their own tools by combining some existing tools and fe
 </ol>
 </div>
 </div>
+
 <div id="outline-container-sec-1-11" class="outline-3">
 <h3 id="sec-1-11"><span class="section-number-3">1.11</span> Types of symbology:</h3>
 <div class="outline-text-3" id="text-1-11">
@@ -442,12 +443,18 @@ Often used for polygons and points.
 </ol>
 </div>
 </div>
+
 <div id="outline-container-sec-1-13" class="outline-3">
 <h3 id="sec-1-13"><span class="section-number-3">1.13</span> Projection Systems:</h3>
 <div class="outline-text-3" id="text-1-13">
 <p>
 Metric properties of maps: Area, Shape, Direction, Bearing, Distance, Scale.
 </p>
+
+<p>
+Three types of Map Projections:
+</p>
+
 <ol class="org-ol">
 <li>Plane: <b>Stereographic</b>
 <ul class="org-ul">
@@ -457,6 +464,7 @@ Metric properties of maps: Area, Shape, Direction, Bearing, Distance, Scale.
 </li>
 </ul>
 </li>
+
 <li>Cylindrical: <b>Mercator</b>
 <ul class="org-ul">
 <li><b>Conformal projection</b>
@@ -469,6 +477,7 @@ Metric properties of maps: Area, Shape, Direction, Bearing, Distance, Scale.
 </li>
 </ul>
 </li>
+
 <li>Conic: <b>Albers</b>
 <ul class="org-ul">
 <li><b>Equivalent projection</b>
@@ -482,6 +491,7 @@ Metric properties of maps: Area, Shape, Direction, Bearing, Distance, Scale.
 </ol>
 </div>
 </div>
+
 <div id="outline-container-sec-1-14" class="outline-3">
 <h3 id="sec-1-14"><span class="section-number-3">1.14</span> Definition Query:</h3>
 <div class="outline-text-3" id="text-1-14">
@@ -493,6 +503,7 @@ Metric properties of maps: Area, Shape, Direction, Bearing, Distance, Scale.
 </ul>
 </div>
 </div>
+
 <div id="outline-container-sec-1-15" class="outline-3">
 <h3 id="sec-1-15"><span class="section-number-3">1.15</span> Choropleth Maps:</h3>
 <div class="outline-text-3" id="text-1-15">
@@ -501,6 +512,7 @@ A choropleth map uses color fill in polygons to represent numeric attribute valu
 </p>
 </div>
 </div>
+
 <div id="outline-container-sec-1-16" class="outline-3">
 <h3 id="sec-1-16"><span class="section-number-3">1.16</span> Normalization:</h3>
 <div class="outline-text-3" id="text-1-16">
@@ -509,6 +521,7 @@ The process of dividing one numeric attribute value by another to minimize diffe
 </p>
 </div>
 </div>
+
 <div id="outline-container-sec-1-17" class="outline-3">
 <h3 id="sec-1-17"><span class="section-number-3">1.17</span> Layer Package:</h3>
 <div class="outline-text-3" id="text-1-17">
@@ -517,6 +530,7 @@ A layer can be saved with its data as a layer package (.lpk). A layer package in
 </p>
 </div>
 </div>
+
 <div id="outline-container-sec-1-18" class="outline-3">
 <h3 id="sec-1-18"><span class="section-number-3">1.18</span> Interactive GIS:</h3>
 <div class="outline-text-3" id="text-1-18">
@@ -525,6 +539,7 @@ A layer can be saved with its data as a layer package (.lpk). A layer package in
 </ol>
 </div>
 </div>
+
 <div id="outline-container-sec-1-19" class="outline-3">
 <h3 id="sec-1-19"><span class="section-number-3">1.19</span> Visible Scale Range:</h3>
 <div class="outline-text-3" id="text-1-19">
@@ -536,6 +551,7 @@ A layer can be saved with its data as a layer package (.lpk). A layer package in
 </ul>
 </div>
 </div>
+
 <div id="outline-container-sec-1-20" class="outline-3">
 <h3 id="sec-1-20"><span class="section-number-3">1.20</span> Maptip:</h3>
 <div class="outline-text-3" id="text-1-20">
@@ -544,6 +560,7 @@ Map tip is text box over important features in a map. it is used to highlight ce
 </p>
 </div>
 </div>
+
 <div id="outline-container-sec-1-21" class="outline-3">
 <h3 id="sec-1-21"><span class="section-number-3">1.21</span> 2 types of animation(cumulative/non-cumulative):</h3>
 <div class="outline-text-3" id="text-1-21">
@@ -555,6 +572,7 @@ Map tip is text box over important features in a map. it is used to highlight ce
 </ul>
 </div>
 </div>
+
 <div id="outline-container-sec-1-22" class="outline-3">
 <h3 id="sec-1-22"><span class="section-number-3">1.22</span> Geoprocessing:</h3>
 <div class="outline-text-3" id="text-1-22">
@@ -618,14 +636,16 @@ Digitizing is the process by which coordinates from a map, image, or other sourc
 </ol>
 </div>
 </div>
+
 <div id="outline-container-sec-1-24" class="outline-3">
 <h3 id="sec-1-24"><span class="section-number-3">1.24</span> Geocoding:</h3>
 <div class="outline-text-3" id="text-1-24">
 <p>
-Geocoding is the process of transforming a description of a location—such as a pair of coordinates, an address, or a name of a place—to a location on the earth's surface.
+Geocoding is the process of converting addresses (like "1600 Amphitheatre Parkway, Mountain View, CA") into geographic coordinates (like latitude 37.423021 and longitude -122.083739), which you can use to place markers on a map, or position the map.
 </p>
 </div>
 </div>
+
 <div id="outline-container-sec-1-25" class="outline-3">
 <h3 id="sec-1-25"><span class="section-number-3">1.25</span> Geocoding types:</h3>
 <div class="outline-text-3" id="text-1-25">
@@ -637,6 +657,7 @@ Geocoding is the process of transforming a description of a location—such as a
 </ul>
 </div>
 </div>
+
 <div id="outline-container-sec-1-26" class="outline-3">
 <h3 id="sec-1-26"><span class="section-number-3">1.26</span> Conceptual Components of geocoding:</h3>
 <div class="outline-text-3" id="text-1-26">
@@ -790,7 +811,7 @@ Happy Midterm.
 <div id="postamble" class="status">
 <p class="date">Date: 10:38 PM, Friday, October 16, 2015</p>
 <p class="author">Author: ZhangYuxiang</p>
-<p class="date">Created: 2015-10-22 Thu 12:22</p>
+<p class="date">Created: 2015-10-22 Thu 13:52</p>
 <p class="creator"><a href="http://www.gnu.org/software/emacs/">Emacs</a> 24.5.1 (<a href="http://orgmode.org">Org</a> mode 8.2.10)</p>
 <p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
 </div>
