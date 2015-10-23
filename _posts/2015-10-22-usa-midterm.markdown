@@ -9,60 +9,7 @@ image:
   feature:
 date: 2015-10-22T12:30:09-04:00
 ---
-
-<div id="table-of-contents">
-<h2>Table of Contents</h2>
-<div id="text-table-of-contents">
-<ul>
-<li><a href="#sec-1">1. General Concepts</a>
-<ul>
-<li><a href="#sec-1-1">1.1. Relative path:</a></li>
-<li><a href="#sec-1-2">1.2. Attribute Table:</a></li>
-<li><a href="#sec-1-3">1.3. Selection of features:</a></li>
-<li><a href="#sec-1-4">1.4. Types of Geospatial Data:</a></li>
-<li><a href="#sec-1-5">1.5. Types of shapefiles:</a></li>
-<li><a href="#sec-1-6">1.6. Metadata:</a></li>
-<li><a href="#sec-1-7">1.7. What is GIS:</a></li>
-<li><a href="#sec-1-8">1.8. Joining Data:(Table and spatial data):</a></li>
-<li><a href="#sec-1-9">1.9. Model Builder:</a></li>
-<li><a href="#sec-1-10">1.10. Layer File(.lyr):</a></li>
-<li><a href="#sec-1-11">1.11. Types of symbology:</a></li>
-<li><a href="#sec-1-12">1.12. Geodatabase:</a></li>
-<li><a href="#sec-1-13">1.13. Projection Systems:</a></li>
-<li><a href="#sec-1-14">1.14. Definition Query:</a></li>
-<li><a href="#sec-1-15">1.15. Choropleth Maps:</a></li>
-<li><a href="#sec-1-16">1.16. Normalization:</a></li>
-<li><a href="#sec-1-17">1.17. Layer Package:</a></li>
-<li><a href="#sec-1-18">1.18. Interactive GIS:</a></li>
-<li><a href="#sec-1-19">1.19. Visible Scale Range:</a></li>
-<li><a href="#sec-1-20">1.20. Maptip:</a></li>
-<li><a href="#sec-1-21">1.21. 2 types of animation(cumulative/non-cumulative):</a></li>
-<li><a href="#sec-1-22">1.22. Geoprocessing:</a></li>
-<li><a href="#sec-1-23">1.23. Digitization:</a></li>
-<li><a href="#sec-1-24">1.24. Geocoding:</a></li>
-<li><a href="#sec-1-25">1.25. Geocoding types:</a></li>
-<li><a href="#sec-1-26">1.26. Conceptual Components of geocoding:</a></li>
-</ul>
-</li>
-<li><a href="#sec-2">2. Additional:</a>
-<ul>
-<li><a href="#sec-2-1">2.1. Components of a good map:</a></li>
-<li><a href="#sec-2-2">2.2. Navigation:</a></li>
-<li><a href="#sec-2-3">2.3. Bookmark:</a></li>
-<li><a href="#sec-2-4">2.4. Set selectable layers:</a></li>
-<li><a href="#sec-2-5">2.5. What is a fishnet map</a></li>
-<li><a href="#sec-2-6">2.6. What is accumulation of animation means in a map</a></li>
-<li><a href="#sec-2-7">2.7. Is there a perfect projection?</a></li>
-<li><a href="#sec-2-8">2.8. Scale types of measurement:</a></li>
-<li><a href="#sec-2-9">2.9. Types of coordinate system:</a></li>
-<li><a href="#sec-2-10">2.10. Scale comparison, which one has a larger scale, map of the United States or a building?</a></li>
-<li><a href="#sec-2-11">2.11. What's the difference between clip and intersect?</a></li>
-</ul>
-</li>
-</ul>
-</div>
-</div>
-
+{:toc}
 
 # General Concepts<a id="sec-1" name="sec-1"></a>
 
