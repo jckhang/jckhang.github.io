@@ -47,7 +47,7 @@ Ways to select features:
 
 Rasters are pictures. They are images that are indexed by their pixels. They are continuous and cannot be divided into smaller units. All raster maps are rectangular.  Each pixel has a coordinate, locating it in the broader raster array. These values are not stored in the cells themselves, but instead are calculated from a benchmark, like the corner of the image, by an algorithm. They are large files.
 
-1.  Vector(points, lines, polygons)
+2.  Vector(points, lines, polygons)
 
 Vector data is data that has a spatial component, or X,Y coordinates assigned to it.
 
