@@ -12,7 +12,7 @@ date: 2015-10-22T12:30:09-04:00
 
 {% include _toc.html %}
 
-# General Concepts<a id="sec-1" name="sec-1"></a>
+#1. General Concepts<a id="sec-1" name="sec-1"></a>
 
 ## Relative path:<a id="sec-1-1" name="sec-1-1"></a>
 
@@ -219,7 +219,7 @@ Geocoding is the process of converting addresses (like "1600 Amphitheatre Parkwa
 
 Address locator, spreadsheet, reference file like street network or zipcode.
 
-# Additional:<a id="sec-2" name="sec-2"></a>
+#2. Additional:<a id="sec-2" name="sec-2"></a>
 
 ## Components of a good map:<a id="sec-2-1" name="sec-2-1"></a>
 
