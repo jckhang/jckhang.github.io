@@ -1,15 +1,16 @@
 ---
 layout: post
-title: "Spatial Analytics Midterm Review"
+title: Spatial Analytics Midterm Review
 modified:
 categories:
-excerpt:
+excerpt: "Summary Question from Prof. Himanshu"
 tags: [Midterm]
 image:
   feature:
 date: 2015-10-22T12:30:09-04:00
 ---
-{:toc}
+
+{% include _toc.html %}
 
 # General Concepts<a id="sec-1" name="sec-1"></a>
 
