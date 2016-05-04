@@ -1,188 +1,182 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-
-
     <title>Yuxiang Zhang</title>
-
     <!-- Bootstrap core CSS -->
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
     <!-- FontAwesome -->
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
-
     <!-- Custom styles for this template -->
     <link href="css/style.css" rel="stylesheet">
-
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-
     <!-- Google Analytics -->
     <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    (function(i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function() {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
-      ga('create', 'UA-52223823-1', 'charlieguthrie.net');
-      ga('send', 'pageview');
-
+    ga('create', 'UA-52223823-1', 'charlieguthrie.net');
+    ga('send', 'pageview');
     </script>
-
     <!-- Clock links -->
     <script src="http://d3js.org/d3.v3.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans">
+</head>
 
-
-  </head>
-
-  <body>
-
-  <!-- navbar -->
+<body>
+    <!-- navbar -->
     <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">Yuxiang Zhang</a>
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Yuxiang Zhang</a>
+            </div>
+            <div class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="files/yuxiang_resume.pdf">Resumé</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <!--/.nav-collapse -->
         </div>
-        <div class="collapse navbar-collapse">
-          <ul class="nav navbar-nav">
-            <li><a href="#">Home</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="files/yuxiang_resume.pdf">Resumé</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </div><!--/.nav-collapse -->
-      </div>
     </div>
-
-
     <div class="container">
-      <div class="section">
-        <a class="anchor" id="Home"></a>
-        <div class="jumbotron text-center">
-          <div class="container-fluid">
-            <h1>WELCOME TO MY HOMEPAGE</h1>
-
-            <p>Collection of screenshots, links and notes about Yuxiang Zhang’s work and study at CUSP.</p>
-          </div>
-        </div>
-      </div><!-- /.section-->
-
-      <div class="section">
-        <a class="anchor" id="projects"></a>
-        <div class="row">
-          <h1> Projects </h1>
-        </div>
-
-        <div class="row">
-
-          <div class="col-md-6">
-            <div class="project">
-              <a href="http://yuxiangzhang.me/WiTime/">
-                <h3> Information Filter </h3>
-                <div class="imgBox">
-                  <img src="img/wikifilter.png">
+        <div class="section">
+            <a class="anchor" id="Home"></a>
+            <div class="jumbotron text-center">
+                <div class="container-fluid">
+                    <h1>WELCOME TO MY HOMEPAGE</h1>
+                    <p>Collection of screenshots, links and notes about Yuxiang Zhang’s work and study at CUSP.</p>
                 </div>
-              </a>
-              <p> With He Ying , we created a demo timeline that integrated with parsed information from wiki. </a>. </p>
             </div>
-          </div>
-          </div>
-
-
-        <div class="row">
-          <h2> Class Projects </h2>
         </div>
-
-        <div class="row">
-
-          <div class="col-md-6">
-            <div class="project">
-              <a href="http://www.slideshare.net/ssuser0ef8fa/presentation1-55478282">
-                <h3> Analysis and prediction of Rossman Store Sale </h3>
-                <div class="imgBox">
-                  <img src="img/rossman.jpg">
+        <!-- /.section-->
+        <div class="section">
+            <a class="anchor" id="projects"></a>
+            <div class="row">
+                <h1> Vis Projects </h1>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="project">
+                        <a href="http://yuxiangzhang.me/WiTime/">
+                            <h3> WiTime </h3>
+                            <div class="imgBox">
+                                <img src="img/witime.png">
+                            </div>
+                        </a>
+                        <p> With He Ying , we created a demo timeline that integrated with parsed information from wiki. </a>. </p>
+                    </div>
                 </div>
-              </a>
-              <p> A Study focused on the analysis of the influencing factors of store sales. </p>
-            </div>
-          </div>
-
-
-      </div><!-- /.section-->
-
-
-      <div class="section">
-        <a class="anchor" id="collaborations"></a>
-        <div class="row">
-          <h1> Collaborations </h1>
-        </div>
-
-        <div class="row">
-
-          <div class="col-md-6">
-            <div class="project">
-              <a href="http://heying.info/wikidata_birthapi/">
-                <h3> Information Filter </h3>
-                <div class="imgBox">
-                  <img src="img/filter.png">
+                <div class="col-md-6">
+                    <div class="project">
+                        <a href="https://stockdashboard.herokuapp.com/">
+                            <h3>Stock Insight</h3></a>
+                        <div class="imgBox">
+                            <img src="img/stockInsight.png">
+                        </div>
+                        <p>This was an class project for InfoViz in NYU. With our visualization, we hope to appeal to traders who need overall market consensus opinion to be available quickly, and who do not want to search through Stocktwits on their own.</p>
+                    </div>
                 </div>
-              </a>
-              <p> With He Ying , we created a demo timeline that integrated with parsed information from wiki. </a>. </p>
             </div>
-          </div>
-
-      </div><!-- /.section-->
-
-
-      <div class="section">
-        <a class="anchor" id="contact"></a>
-        <div class="row" style="text-align:center">
-          <div class="col-centered">
-            <h1> Contact </h1>
-            <ul class="fa-ul">
-              <li>
-                <a href="https://github.com/jckhang">
-                  <i class="fa-li fa fa-twitter-square fa-lg"></i>
-                  GitHub: jckhang
-                </a>
-              </li>
-              <li>
-                <a href="mailto:yuxiang.zh@nyu.edu">
-                  <i class="fa-li fa fa-envelope fa-lg"></i>
-                  Email: yuxiang.zh@nyu.edu
-                </a>
-              </li>
-            </ul>
-          </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="project">
+                        <a href="http://yuxiangzhang.me/100nyu/">
+                            <h3>100 NYU</h3></a>
+                        <div class="imgBox">
+                            <img src="img/100nyu.png">
+                        </div>
+                        <p>100 NYU was the winner for the HackNYU. It is also the fourth candidates for New York University Campus Coding Collaborative program which is funded and tutored by NYU C3 lab. </p>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div><!-- /.section-->
-
-      <div class="row bottomFiller"></div>
-
-
-    </div><!-- /.container -->
-
-    <script src="js/clock.js" type="text/javascript"></script>
-
-    <!-- Bootstrap core JavaScript
+        <div class="row">
+            <h2> Class Projects </h2>
+            <div class="col-md-6">
+                <div class="project">
+                    <a href="http://www.slideshare.net/ssuser0ef8fa/presentation1-55478282">
+                        <h3> Analysis and prediction of Rossman Store Sale </h3>
+                        <div class="imgBox">
+                            <img src="img/rossman.jpg">
+                        </div>
+                    </a>
+                    <p> A Study focused on the analysis of the influencing factors of store sales. </p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="project">
+                    <a href="http://www.slideshare.net/ssuser0ef8fa/music-network-analysis">
+                        <h3> The Network Analysis of Pop Musicians' Similarity </h3>
+                        <div class="imgBox">
+                            <img src="img/musicNetwork.png">
+                        </div>
+                    </a>
+                    <p>Analyze and visualize the top 1000 hottest pop singers’ network. </p>
+                </div>
+            </div>
+        </div>
+        <!-- /.section-->
+        <div class="section">
+            <a class="anchor" id="contact"></a>
+            <div class="row" style="text-align:center">
+                <div class="col-centered">
+                    <h1> Contact </h1>
+                    <ul class="fa-ul">
+                        <li>
+                            <a href="https://github.com/jckhang">
+                                GitHub: jckhang
+                            </a>
+                        </li>
+                        <li>
+                            <a href="mailto:yuxiang.zh@nyu.edu">
+                                Email: yuxiang.zh@nyu.edu
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/yuxiang-zhang-8990929b" title="linkedin">
+                                LinkedIn: Yuxiang Zhang
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- /.section-->
+        <div class="row bottomFiller"></div>
+        <!-- /.container -->
+        <script src="js/clock.js" type="text/javascript"></script>
+        <!-- Bootstrap core JavaScript
     ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="bootstrap/js/bootstrap.min.js"></script>
-  </body>
+        <!-- Placed at the end of the document so the pages load faster -->
+        <script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+
 </html>
